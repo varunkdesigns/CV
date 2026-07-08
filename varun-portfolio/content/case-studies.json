@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "everbee-ai-brain",
+    "cover": "cover-orange",
+    "tag": "AI Brain · Case Study",
+    "title": "Designing EverBee AI Brain — Your Smart Creative Partner",
+    "summary": "Designed an AI-powered creative assistant to help users think faster, ideate smarter, and execute with clarity.",
+    "meta": {
+      "role": "Lead Product Designer",
+      "timeline": "10 weeks",
+      "platform": "Web App",
+      "tools": "Figma · FigJam · Maze"
+    },
+    "overview": [
+      "EverBee helps YouTube creators plan content that actually performs, but the research-to-idea gap was still manual and slow. Users were pulling data from one tab, brainstorming in another, and losing momentum in between.",
+      "AI Brain was built to close that gap — a creative co-pilot embedded directly in the product that turns raw research into ready-to-use ideas without breaking a creator's flow."
+    ],
+    "problem": {
+      "heading": "The problem",
+      "body": [
+        "Creators had the data they needed but not the time or framework to turn it into content ideas. Early interviews showed people were exporting keyword reports, pasting them into ChatGPT in a separate tab, then copying results back — a workflow with at least three points of drop-off.",
+        "Stakeholders wanted an AI feature, but 'add AI' isn't a design brief. The real question was where in the workflow intelligence should live, and how much control to hand back to the user versus the model."
+      ]
+    },
+    "approach": {
+      "heading": "The approach",
+      "steps": [
+        {
+          "title": "Map the existing workflow",
+          "body": "Shadowed six creators using the current research tools to find the exact moment their momentum broke."
+        },
+        {
+          "title": "Prototype three intelligence models",
+          "body": "Tested a fully automated suggestion engine, a fully manual prompt box, and a guided hybrid — the hybrid won on trust and speed in usability sessions."
+        },
+        {
+          "title": "Design the interaction language",
+          "body": "Built a component system for AI responses — confidence indicators, editable suggestions, and one-click regenerate — so the tool always felt steerable, not automatic."
+        },
+        {
+          "title": "Test with real research data",
+          "body": "Ran moderated sessions with live creator accounts to validate that suggestions felt personal rather than generic."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The solution",
+      "body": [
+        "AI Brain surfaces inside the existing research panel rather than as a separate tool, so it reads as an extension of what creators already trust. Every suggestion is editable inline, sourced back to the data it was built from, and can be regenerated with one click if it misses the mark.",
+        "A lightweight onboarding moment sets expectations up front — what the AI can and can't do — which testing showed mattered more for trust than any amount of visual polish."
+      ]
+    },
+    "results": [
+      { "value": "42%", "label": "Faster idea-to-draft time" },
+      { "value": "3.1x", "label": "More ideas explored per session" },
+      { "value": "89%", "label": "Found suggestions relevant" }
+    ],
+    "pullQuote": "The best AI feature in this workflow was the one that felt the least like a separate feature.",
+    "prev": "everbee-auth-onboarding",
+    "next": "everbee-christmas-offer"
+  },
+  {
+    "slug": "everbee-christmas-offer",
+    "cover": "cover-yellow",
+    "tag": "Growth · Offer Flow",
+    "title": "Designing EverBee's Christmas Offer Flow",
+    "summary": "From campaign entry to purchase — optimizing a time-bound offer without friction.",
+    "meta": {
+      "role": "Product Designer",
+      "timeline": "3 weeks",
+      "platform": "Web App",
+      "tools": "Figma · Amplitude"
+    },
+    "overview": [
+      "EverBee's seasonal offer needed to convert fast — a two-week window, a countdown-driven discount, and an audience that included both existing subscribers and first-time visitors landing from ads.",
+      "The brief was simple on paper: get people from 'saw the offer' to 'purchased' with as few decisions as possible. In practice it meant redesigning entry points, pricing display, and checkout in parallel under a hard deadline."
+    ],
+    "problem": {
+      "heading": "The problem",
+      "body": [
+        "Analytics from the previous seasonal promo showed a steep drop-off between the pricing page and checkout — nearly 40% of users who opened pricing never started the payment flow.",
+        "Session recordings pointed to plan-comparison confusion: three tiers, four billing cycles, and a discount badge that didn't clearly show what the deal actually was."
+      ]
+    },
+    "approach": {
+      "heading": "The approach",
+      "steps": [
+        {
+          "title": "Diagnose the drop-off",
+          "body": "Paired analytics with session recordings to isolate the exact step users abandoned at."
+        },
+        {
+          "title": "Simplify the offer math",
+          "body": "Replaced tier-by-tier percentage badges with one clear 'you pay / you save' line, tested against the original in a first-click study."
+        },
+        {
+          "title": "Design urgency without dark patterns",
+          "body": "Used a real countdown tied to the actual campaign end time — no fake scarcity, no fabricated stock counters."
+        },
+        {
+          "title": "Streamline checkout",
+          "body": "Cut the flow from four steps to two by pre-filling known account data and moving plan selection earlier."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The solution",
+      "body": [
+        "The new flow leads with a single, clear offer statement instead of a comparison grid, with plan details available on demand rather than upfront. A persistent, real countdown reinforces urgency honestly.",
+        "Checkout was reduced to two screens: confirm plan, then pay — removing three redundant fields that were already known from the user's account."
+      ]
+    },
+    "results": [
+      { "value": "+27%", "label": "Pricing-to-checkout conversion" },
+      { "value": "-58%", "label": "Time to complete purchase" },
+      { "value": "0", "label": "Dark patterns used" }
+    ],
+    "pullQuote": "Urgency didn't need to be manufactured — it just needed to be visible.",
+    "prev": "everbee-ai-brain",
+    "next": "everbee-auth-onboarding"
+  },
+  {
+    "slug": "everbee-auth-onboarding",
+    "cover": "cover-blue",
+    "tag": "Onboarding · Auth",
+    "title": "EverBee Auth Setup & Product Selector",
+    "summary": "A streamlined sign-in and onboarding flow that helps users reach value faster.",
+    "meta": {
+      "role": "Product Designer",
+      "timeline": "6 weeks",
+      "platform": "Web App",
+      "tools": "Figma · FullStory"
+    },
+    "overview": [
+      "New users were signing up but stalling before they ever reached EverBee's core research tools. The signup form, product selector, and first-run setup had all been built at different times by different teams, so the experience felt like three separate products stitched together.",
+      "This project unified sign-in and first-run setup into one coherent flow, with the single goal of getting a new user to their first useful insight as fast as possible."
+    ],
+    "problem": {
+      "heading": "The problem",
+      "body": [
+        "Funnel data showed roughly a third of new signups never completed onboarding. Support tickets echoed the same confusion: people didn't know which product tier they'd signed up for, or what to do once they landed inside the app.",
+        "The product selector — meant to route users to the right tools — was actually adding a decision users weren't ready to make yet."
+      ]
+    },
+    "approach": {
+      "heading": "The approach",
+      "steps": [
+        {
+          "title": "Audit every drop-off point",
+          "body": "Walked the full funnel from landing page to first insight, logging every screen where users could stall or bounce."
+        },
+        {
+          "title": "Defer the hard choice",
+          "body": "Moved product selection from a mandatory first step to a contextual suggestion once the user showed intent."
+        },
+        {
+          "title": "Redesign sign-in for speed",
+          "body": "Added social auth and cut the credential form from five fields to two, validated live rather than on submit."
+        },
+        {
+          "title": "Build a guided first run",
+          "body": "Replaced a static welcome tour with a checklist tied to real product milestones, so progress felt earned, not performative."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The solution",
+      "body": [
+        "Sign-in now takes under 15 seconds for returning users and offers Google auth up front for new ones. Product selection was removed as a gate entirely — the app recommends a starting point based on the first action a user takes, and lets them switch anytime from settings.",
+        "A three-item setup checklist replaced the old onboarding tour, each item linked directly to the real feature rather than a screenshot of it."
+      ]
+    },
+    "results": [
+      { "value": "+31%", "label": "Onboarding completion" },
+      { "value": "-64%", "label": "Time to first insight" },
+      { "value": "-22%", "label": "Onboarding support tickets" }
+    ],
+    "pullQuote": "The best product selector is the one the user never has to think about.",
+    "prev": "everbee-christmas-offer",
+    "next": "everbee-ai-brain"
+  }
+]
